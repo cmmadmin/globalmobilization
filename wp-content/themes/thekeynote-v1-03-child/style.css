@@ -1,0 +1,173 @@
+/*
+ Theme Name:   The Keynote Child
+ Theme URI:    http://themes.goodlayers.com/thekeynote/
+ Description:  The Keynote Child Theme
+ Author:       Eric Hall
+ Template:     thekeynote-v1-03
+ Version:      1.0.0
+*/
+
+@import url("../thekeynote-v1-03/style.css");
+
+/* Added by Eric Hall */
+
+/* Fonts */
+@font-face {
+    font-family: NeuzeitSLTStd;
+    src: url("fonts/Neuzeit_S_LT_Std/NeuzeitSLTStd-Book.otf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: PhotinaMTStd;
+    src: url("fonts/Photina_MT_Std/PhotinaMTStd.otf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: FloodStd;
+    src: url("fonts/Flood_Std/FloodStd.otf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: SourceCodePro;
+    src: url("fonts/Source_Code_Pro/SourceCodePro-Regular.otf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: MyriadPro;
+    src: url("fonts/Myriad_Pro/MyriadPro-Regular.otf");
+    font-weight: normal;
+}
+
+
+/* Generic Styles */
+h1, h2, h3, h4, h5, h6 { font-family: PhotinaMTStd; }
+
+
+/*** PAGE SPECIFIC STYLES ***/
+
+/* Home Page */
+#summary #summary-text { width: 65%; margin: 0 auto; }
+#summary #summary-text h1 { font-family: PhotinaMTStd !important; font-weight: 500; color: #736560; font-size: 36px; }
+#summary #summary-text p { font-family: NeuzeitSLTStd; color: #2a5972; font-size: 16px; }
+#speakers .gdlr-item-title-wrapper .gdlr-item-title { font-family: FloodStd; font-weight: 500; color: #736560; }
+#schedule { background-size: 100%; }
+#schedule .schedule-flood-font { font-family: FloodStd !important; font-weight: 500; }
+#schedule #schedule-header h3 { font-family: NeuzeitSLTStd !important; font-size: 28px; color: #736560; }
+#schedule .gdlr-item-title-wrapper { margin-bottom: 0px; padding: 15px; background: #dad3c3}
+#schedule .gdlr-item-title { font-family: NeuzeitSLTStd !important; font-size: 16px; color: #9b131a; text-transform: none; letter-spacing: 0px; }
+#schedule .schedule-header { margin-bottom: 0px; padding: 15px; background: #dad3c3; font-family: NeuzeitSLTStd !important; font-size: 16px; color: #736560; text-transform: none; letter-spacing: 0px; font-weight: 800; }
+#schedule .schedule-text-wrapper { font-family: NeuzeitSLTStd !important; font-size: 14px; color: #817474; margin-top: 12px; padding: 50px 50px 30px 50px; background-color: #f7f7f7;  }
+#schedule .schedule-text-wrapper p { width: 70%; }
+#location #location-heading { margin-bottom: 60px; }
+#location #location-heading h1 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; text-align: center; }
+#location #location-content { text-align: center; width: 65%; margin: 0 auto; }
+#location #location-content h2 { font-family: PhotinaMTStd; font-size: 24px; font-weight: normal; text-transform: none; color: #406e82 !important; }
+#location #location-content p { font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; }
+#register #register-heading { margin-bottom: 30px; }
+#register #register-heading h2 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #f7f7f7; text-align: center; }
+#register #register-caption { margin-top: 30px; }
+#register #register-caption p { font-family: NeuzeitSLTStd; font-size: 16px; font-weight: 500; color: #f7f7f7; text-align: center; }
+#register #register-caption a { color: #f7f7f7; border-bottom: solid 2px #CF2932; }
+#gmc-ticket .gdlr-ticket-item::before { content: ""; background-image: url("../../uploads/2015/04/early_bird_stamp.png"); background-size: 100%; height: 170px; width: 170px; position: absolute; top: -20px; right: 40px; z-index: 1; }
+#gmc-ticket .gdlr-ticket-item { width: 745px; margin: 0 auto; position: relative; }
+#testimonial #testimonial-heading { text-align: center; margin-bottom: 60px; }
+#testimonial #testimonial-heading h1 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; }
+#testimonial #testimonial-heading h3 { font-family: NeuzeitSLTStd; font-size: 16px; color: #766e6e; }
+
+/* Readings Page */
+#readings-summary { font-family: NeuzeitSLTStd; font-size: 15px; color: #766e6e; }
+
+/* Contact Page */
+#contact-content h5 { font-family: NeuzeitSLTStd; font-size: 16px; color: #736560; }
+#contact-content p { font-family: SourceCodePro; color: #766e6e; }
+
+
+/*** THE KEYNOTE THEME MODULE STYLES ***/
+
+/* Navigation */
+.gdlr-navigation { font-family: NeuzeitSLTStd !important; }
+.gdlr-navigation-wrapper { padding-right: 245px; }
+#gdlr-menu-search-button { right: 200px; }
+.gdlr-header-wrapper .gdlr-menu-search-button-sep { right: 245px; }
+.gdlr-header-wrapper #register-button { position: absolute; top: 49px; right: 10px; }
+.gdlr-header-wrapper #register-button a { position: relative; opacity: 1; margin: 0; padding: 12px 16px 9px; font-size: 15px; font-weight: 500; line-height: 15px; letter-spacing: 1px; background-color: #e0963a;color: #f7f7f7; border-bottom: solid 3px #c38332; }
+.gdlr-fixed-header #register-button { top: 25px; }
+
+/* Background image containers */
+
+/* Page titles */
+.gdlr-page-title-wrapper { background-repeat: no-repeat; background-size: cover; padding: 70px 0px 55px; }
+.gdlr-page-title-wrapper .gdlr-page-title { font-family: FloodStd; font-size: 48px; font-weight: 500; color: #dad3c3; }
+
+/* Sliders */
+.gdlr-slider-item { font-family: NeuzeitSLTStd !important; letter-spacing: 2px; }
+
+/* Speakers */
+.gdlr-speaker-item .gdlr-speaker-item-title { font-family: NeuzeitSLTStd; font-size: 16px; color: #4d413d; }
+.gdlr-speaker-item .gdlr-speaker-item-position { font-family: SourceCodePro; font-style: normal; font-size: 13px; color: #766e6e; }
+.gdlr-item-title-caption { font-family: NeuzeitSLTStd !important; font-size: 16px; margin: 0; }
+.gdlr-speaker-thumbnail-overlay { background-color: #9b131a !important; }
+.gdlr-item-title-wrapper .gdlr-flex-prev, .gdlr-item-title-wrapper .gdlr-flex-next { background-color: #9b131a !important; }
+
+/* Sessions */
+.gdlr-session-item.gdlr-tab-session-item .gdlr-session-item-head { background-color: #9b131a; margin-bottom: 12px; }
+.gdlr-session-item-head-info { font-family: NeuzeitSLTStd !important; border-color: #cf353d; }
+.gdlr-session-item.gdlr-tab-session-item .gdlr-session-item-head-info.gdlr-active { background-color: #cf2931; }
+.gdlr-session-item .gdlr-session-item-title { font-family: PhotinaMTStd !important; text-transform: none; font-weight: 600; font-size: 24px !important; color: #406e82 !important; letter-spacing: 1px; }
+.gdlr-session-item-title a { color: #406e82 !important; font-size: 24px !important; }
+.gdlr-session-item-excerpt { font-family: NeuzeitSLTStd !important; font-size: 14px; color: #817474; }
+.gdlr-session-info { font-family: SourceCodePro !important; text-transform: none; color: #766e6e; }
+.gdlr-session-info a { color: #cf2931; }
+.gdlr-session-item .session-break-info { font-family: NeuzeitSLTStd !important; color: #548199 !important; font-weight: 500; }
+.gdlr-session-item .gdlr-session-break-title { font-family: PhotinaMTStd !important; text-transform: none; color: #736560 !important;  font-size: 36px; letter-spacing: 1px; font-weight: 500; }
+
+/* Location */
+
+/* Tickets */
+.gdlr-ticket-item .gdlr-ticket-head-title { font-family: PhotinaMTStd; font-size: 24px; font-weight: normal; text-transform: none; color: #406e82 !important; }
+.gdlr-ticket-item .gdlr-ticket-head-price { font-family: NeuzeitSLTStd; font-weight: normal; letter-spacing: 2px; color: #cf2931 !important; }
+.gdlr-ticket-item .gdlr-ticket-content { font-family: NeuzeitSLTStd; font-style: normal; color: #978888 !important; }
+.gdlr-ticket-item .gdlr-ticket-content p { font-style: normal; }
+.gdlr-ticket-item .gdlr-ticket-button { background-color: #cf2931 !important; }
+
+/* Testimonials */
+.gdlr-testimonial-item .testimonial-content { font-family: NeuzeitSLTStd; font-size: 15px; color: #766e6e !important; }
+.gdlr-testimonial-item.plain-style .testimonial-info { font-family: SourceCodePro; font-size: 13px;  }
+.gdlr-testimonial-item .testimonial-author, .gdlr-testimonial-item .testimonial-position { color: #2a596d !important; }
+
+/* Styled boxes */
+.gdlr-styled-box-body.with-head h2 { font-family: PhotinaMTStd; font-size: 24px; font-weight: 700; color: #406e82; }
+.gdlr-styled-box-body.with-head p { font-family: NeuzeitSLTStd; font-size: 15px; font-weight: 500; }
+.gdlr-styled-box-body.with-head .gdlr-button { font-family: SourceCodePro; }
+
+/* Contact Forms */
+.wpcf7 input[type="submit"] { font-family: SourceCodePro; text-transform: uppercase; color: #f7f7f7; background-color: #cf2931; }
+
+/* Item Titles */
+.gdlr-item-title-wrapper .gdlr-item-title.gdlr-title-medium { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; }
+
+/* Footer */
+.footer-wrapper { font-family: NeuzeitSLTStd; }
+.footer-wrapper a { color: #cf2931 !important; }
+.footer-wrapper a.gdlr-button { color: #dad7d1 !important; }
+
+/* Copywright */
+.footer-wrapper .copyright-wrapper { font-family: SourceCodePro; font-size: 13px; color: #766e6e !important; }
+
+
+/* Media Queries */
+
+@media all and (min-width: 768px ) {
+    .gdlr-color-wrapper, .gdlr-parallax-wrapper { background-size: cover; background-repeat: repeat-y; }
+}
+
+@media all and (max-width: 767px) {
+    #summary #summary-text { width: 100%; }
+    #location #location-content { width: 100%; }
+    #gmc-ticket .gdlr-ticket-item { width: 100%; }
+    #gmc-ticket .gdlr-ticket-item::before { right: -20px; }
+}
+
+@media only screen and (max-width: 419px) {
+    #gmc-ticket .gdlr-ticket-item::before { right: -79px; background-size: 60%; background-repeat: no-repeat; }
+}
