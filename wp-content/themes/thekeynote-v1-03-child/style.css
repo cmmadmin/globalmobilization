@@ -2,14 +2,15 @@
  Theme Name:   The Keynote Child
  Theme URI:    http://themes.goodlayers.com/thekeynote/
  Description:  The Keynote Child Theme
- Author:       Eric Hall
+ Author:       Josh Smith
  Template:     thekeynote-v1-03
- Version:      1.0.0
+ Version:      1.1.0
 */
 
 @import url("../thekeynote-v1-03/style.css");
 
 /* Added by Eric Hall */
+/* Edited by Josh Smith*/
 
 /* Fonts */
 @font-face {
@@ -48,28 +49,39 @@ h1, h2, h3, h4, h5, h6 { font-family: PhotinaMTStd; }
 /* Home Page */
 #summary #summary-text { width: 65%; margin: 0 auto; }
 #summary #summary-text h1 { font-family: PhotinaMTStd !important; font-weight: 500; color: #736560; font-size: 36px; }
-#summary #summary-text p { font-family: NeuzeitSLTStd; color: #2a5972; font-size: 16px; }
-#speakers .gdlr-item-title-wrapper .gdlr-item-title { font-family: FloodStd; font-weight: 500; color: #736560; }
-#schedule { background-size: 100%; }
-#schedule .schedule-flood-font { font-family: FloodStd !important; font-weight: 500; }
-#schedule #schedule-header h3 { font-family: NeuzeitSLTStd !important; font-size: 28px; color: #736560; }
-#schedule .gdlr-item-title-wrapper { margin-bottom: 0px; padding: 15px; background: #dad3c3}
-#schedule .gdlr-item-title { font-family: NeuzeitSLTStd !important; font-size: 16px; color: #9b131a; text-transform: none; letter-spacing: 0px; }
-#schedule .schedule-header { margin-bottom: 0px; padding: 15px; background: #dad3c3; font-family: NeuzeitSLTStd !important; font-size: 16px; color: #736560; text-transform: none; letter-spacing: 0px; font-weight: 800; }
-#schedule .schedule-text-wrapper { font-family: NeuzeitSLTStd !important; font-size: 14px; color: #817474; margin-top: 12px; padding: 50px 50px 30px 50px; background-color: #f7f7f7;  }
-#schedule .schedule-text-wrapper p { width: 70%; }
+#summary #summary-text p { font-family: NeuzeitSLTStd; color: #2a5972; font-size: 16px;}
+
+#content-section-3 .gdlr-content-item h1 {padding: 30px; font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560;  width: 55.8%; margin: 0 auto;}
+#content-section-3 .gdlr-content-item p{font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; width: 65%; margin: 0 auto;}
+
+
+#content-section-4  .schedule-flood-font { font-family: FloodStd !important; font-weight: 500; }
+#content-section-4  .gdlr-content-item h1{font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560;  width: 65%; margin: 0 auto;}
+#content-section-4  .schedule-header {font-family: PhotinaMTStd; font-size: 24px; font-weight: normal; text-transform: none; color: #406e82 !important;  width: 65%; margin: 0 auto;}
+#content-section-4  .schedule-text-wrapper { font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; padding: 30px 50px 30px 50px;  width: 65%; margin: 0 auto;}
+#content-section-4  .schedule-text-wrapper2 { font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; padding: 30px 50px 30px 50px; background-color: #f7f7f7;  width: 65%; margin: 0 auto;}
+
+
+#additional .additional-flood-font { font-family: FloodStd !important; font-weight: 500; }
+#additional .gdlr-content-item h1{font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; text-align: center;}
+#additional .additional-header {font-family: PhotinaMTStd; font-size: 24px; font-weight: normal; text-transform: none; color: #406e82 !important;  width: 65%; margin: 0 auto;}
+#additional .gdlr-content-item p{ font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; margin-top: 12px; padding: 30px 50px 30px 50px; width: 65%; margin: 0 auto;}
+
 #location #location-heading { margin-bottom: 60px; }
 #location #location-heading h1 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; text-align: center; }
 #location #location-content { text-align: center; width: 65%; margin: 0 auto; }
 #location #location-content h2 { font-family: PhotinaMTStd; font-size: 24px; font-weight: normal; text-transform: none; color: #406e82 !important; }
 #location #location-content p { font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; }
+
 #register #register-heading { margin-bottom: 30px; }
 #register #register-heading h2 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #f7f7f7; text-align: center; }
 #register #register-caption { margin-top: 30px; }
-#register #register-caption p { font-family: NeuzeitSLTStd; font-size: 16px; font-weight: 500; color: #f7f7f7; text-align: center; }
-#register #register-caption a { color: #f7f7f7; border-bottom: solid 2px #CF2932; }
+#register #register-caption p { font-family: NeuzeitSLTStd; font-size: 16px; font-weight: 500; color: #f7f7f7; text-align: center;   width: 65%; margin: 0 auto;}
+#register #register-caption a { color: #f7f7f7; border-bottom: solid 2px #CF2932;}
+
 #gmc-ticket .gdlr-ticket-item::before { content: ""; background-image: url("../../uploads/2015/04/early_bird_stamp.png"); background-size: 100%; height: 170px; width: 170px; position: absolute; top: -20px; right: 40px; z-index: 1; }
 #gmc-ticket .gdlr-ticket-item { width: 745px; margin: 0 auto; position: relative; }
+
 #testimonial #testimonial-heading { text-align: center; margin-bottom: 60px; }
 #testimonial #testimonial-heading h1 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; }
 #testimonial #testimonial-heading h3 { font-family: NeuzeitSLTStd; font-size: 16px; color: #766e6e; }
@@ -158,7 +170,7 @@ h1, h2, h3, h4, h5, h6 { font-family: PhotinaMTStd; }
 /* Media Queries */
 
 @media all and (min-width: 768px ) {
-    .gdlr-color-wrapper, .gdlr-parallax-wrapper { background-size: cover; background-repeat: repeat-y; }
+    .gdlr-full-size-wrapper, .gdlr-color-wrapper, .gdlr-parallax-wrapper {background-size: cover; background-repeat: repeat-y; }
 }
 
 @media all and (max-width: 767px) {
