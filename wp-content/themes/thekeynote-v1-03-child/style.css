@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6 { font-family: PhotinaMTStd; }
 
 /*** PAGE SPECIFIC STYLES ***/
 
+
 /* Home Page */
 #summary #summary-text { width: 65%; margin: 0 auto; }
 #summary #summary-text h1 { font-family: PhotinaMTStd !important; font-weight: 500; color: #736560; font-size: 36px; }
@@ -67,7 +68,7 @@ h1, h2, h3, h4, h5, h6 { font-family: PhotinaMTStd; }
 #additional .additional-header {font-family: PhotinaMTStd; font-size: 24px; font-weight: normal; text-transform: none; color: #406e82 !important;  width: 65%; margin: 0 auto;}
 #additional .gdlr-content-item p{ font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; margin-top: 12px; padding: 30px 50px 30px 50px; width: 65%; margin: 0 auto;}
 
-#location #location-heading { margin-bottom: 60px; }
+#location #location-heading { margin-bottom: 20px; }
 #location #location-heading h1 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; text-align: center; }
 #location #location-content { text-align: center; width: 65%; margin: 0 auto; }
 #location #location-content h2 { font-family: PhotinaMTStd; font-size: 24px; font-weight: normal; text-transform: none; color: #406e82 !important; }
@@ -76,12 +77,17 @@ h1, h2, h3, h4, h5, h6 { font-family: PhotinaMTStd; }
 #register #register-heading { margin-bottom: 30px; }
 #register #register-heading h2 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #f7f7f7; text-align: center; }
 #register #register-caption { margin-top: 30px; }
+#register #register-caption h2 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #f7f7f7; text-align: center; }
 #register #register-caption p { font-family: NeuzeitSLTStd; font-size: 16px; font-weight: 500; color: #f7f7f7; text-align: center;   width: 65%; margin: 0 auto;}
 #register #register-caption a { color: #f7f7f7; border-bottom: solid 2px #CF2932;}
 
-#gmc-ticket .gdlr-ticket-item::before { content: ""; background-image: url("../../uploads/2015/04/early_bird_stamp.png"); background-size: 100%; height: 170px; width: 170px; position: absolute; top: -20px; right: 40px; z-index: 1; }
-#gmc-ticket .gdlr-ticket-item { text-align: left; width: 745px; margin: 0 auto; position: relative; }
+
+#gmc-ticket .gdlr-ticket-item { text-align: left; width: 745px; margin: 0 auto; position: relative; color: #000000}
+#gmc-ticket .gdlr-ticket-item h1{ margin-bottom: -5px; font-family: PhotinaMTStd; font-size: 20px; font-weight: normal; text-transform: none; color: #406e82 !important;}
+#gmc-ticket .gdlr-ticket-content span{font-family: NeuzeitSLTStd; font-weight: normal; letter-spacing: 2px; color: #cf2931 !important;}
+#gmc-ticket .gdlr-ticket-head-title span{font-size: 18px;font-family: NeuzeitSLTStd; font-style: normal; color: #978888 !important}
 #gmc-ticket .gdlr-ticket-head{ text-align: center;}
+#gmc-ticket .gdlr-ticket-button{ text-align: center;}
 
 #testimonial #testimonial-heading { text-align: center; margin-bottom: 60px; }
 #testimonial #testimonial-heading h1 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; }
@@ -90,10 +96,14 @@ h1, h2, h3, h4, h5, h6 { font-family: PhotinaMTStd; }
 /* Readings Page */
 #readings-summary { font-family: NeuzeitSLTStd; font-size: 15px; color: #766e6e; }
 
-/* Contact Page */
+/* Contact Page */a
 #contact-content h5 { font-family: NeuzeitSLTStd; font-size: 16px; color: #736560; }
-#contact-content p { font-family: SourceCodePro; color: #766e6e; }
+#contact-content p { font-family: SourceCodePro; color: #000000; }
 
+/* Login Page */
+.login #loginform #user_login{background-color: #EDEDED; color: #736560}
+.login #loginform #user_pass{background-color: #EDEDED; color: #736560}
+.login #loginform label{color: #736560}
 
 /*** THE KEYNOTE THEME MODULE STYLES ***/
 
