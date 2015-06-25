@@ -1,6 +1,10 @@
 
 RewriteOptions inherit
 
+# 301 redirect non-www to www
+RewriteCond %{HTTP_HOST} ^globalmobilization.org
+RewriteRule (.*) http://www.globalmobilization.org/$1 [R=301,L]
+
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
