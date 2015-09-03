@@ -1,9 +1,10 @@
 html.ltie9 body, body{ min-width: 1140px; } .container{ max-width: 1140px; } .gdlr-caption-wrapper .gdlr-caption-inner{ max-width: 1140px; }
 .body-wrapper.gdlr-boxed-style{ max-width: 1220px; overflow: hidden; } .body-wrapper.gdlr-boxed-style .gdlr-header-wrapper{ max-width: 1220px; margin: 0px auto; }
-.gdlr-logo{ max-width: 196px; }
-.gdlr-logo{ margin-top: 45px; }
-.gdlr-logo{ margin-bottom: 41px; }
-.gdlr-navigation-wrapper{ margin-top: 53px; }.gdlr-menu-search-button-sep, #gdlr-menu-search-button{ top: 53px; }
+.gdlr-logo{ max-width: 330px; }
+.gdlr-logo{ margin-top: 30px; }
+.gdlr-logo{ margin-bottom: 20px; }
+.gdlr-navigation-wrapper{ margin-top: 60px; }.gdlr-menu-search-button-sep, #gdlr-menu-search-button{ top: 60px; }
+.gdlr-page-title-wrapper { background-image: url('http://globalmobilization.org/wp-content/uploads/2015/03/gmc2015-title_background.jpg'); }
 h1, h2, h3, h4, h5, h6{ font-family: "Raleway"; }
 body, input, textarea, select{ font-family: "Montserrat"; }
 .gdlr-info-font, ul.gdlr-twitter-widget .gdlr-twitter-time, .gdlr-page-caption{ font-family: "Droid Serif"; }
@@ -19,12 +20,12 @@ h6{ font-size: 15px; }
 .top-navigation-wrapper{ color: #ffffff; }
 .top-navigation-wrapper a{ color: #f3f3f3; }
 .top-navigation-wrapper{ background-color: #333333; }
-.gdlr-header-inner{ background-color: #ffffff; }
+.gdlr-header-inner{ background-color: #f2ede3; }
 .gdlr-main-menu > li > a{ color: #8e8e8e; }
-.gdlr-main-menu > li:hover > a, .gdlr-main-menu > li.current-menu-item > a, .gdlr-main-menu > li.current-menu-ancestor > a{ color: #f62b0a; opacity: 1; filter: alpha(opacity=100); } .gdlr-navigation-gimmick{ background-color: #f62b0a; }
+.gdlr-main-menu > li:hover > a, .gdlr-main-menu > li.current-menu-item > a, .gdlr-main-menu > li.current-menu-ancestor > a{ color: #9b131a; opacity: 1; filter: alpha(opacity=100); } .gdlr-navigation-gimmick{ background-color: #9b131a; }
 .gdlr-menu-search{ background: #424242; background: rgba(66, 66, 66, 0.8); }
 #gdlr-menu-search input[type="text"]{ color: #ffffff; }
-.gdlr-fixed-header .gdlr-header-inner{ background-color: #f5f5f5; }
+.gdlr-fixed-header .gdlr-header-inner{ background-color: #f2ede3; }
 .gdlr-main-menu > .gdlr-normal-menu .sub-menu, .gdlr-main-menu > .gdlr-mega-menu .sf-mega{ border-top-color: #1c1c1c; }
 .gdlr-main-menu > .gdlr-normal-menu li , .gdlr-main-menu > .gdlr-mega-menu .sf-mega{ background-color: #2e2e2e; }
 .gdlr-main-menu > li > .sub-menu a, .gdlr-main-menu > li > .sf-mega a{ color: #bebebe; }
