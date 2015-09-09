@@ -55,12 +55,13 @@ h1, h2, h3, h4, h5, h6 { font-family: PhotinaMTStd; }
 #content-section-3 .gdlr-content-item h1 {padding: 30px; font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560;  width: 55.8%; margin: 0 auto;}
 #content-section-3 .gdlr-content-item p{font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; width: 65%; margin: 0 auto;}
 
-
 #content-section-4  .schedule-flood-font { font-family: FloodStd !important; font-weight: 500; }
 #content-section-4  .gdlr-content-item h1{font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560;  width: 65%; margin: 0 auto;}
 #content-section-4  .schedule-header {font-family: PhotinaMTStd; font-size: 24px; font-weight: normal; text-transform: none; color: #406e82 !important;  width: 65%; margin: 0 auto;}
-#content-section-4  .schedule-text-wrapper { font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; padding: 30px 50px 30px 50px;  width: 65%; margin: 0 auto;}
-#content-section-4  .schedule-text-wrapper2 { font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; padding: 30px 50px 30px 50px; background-color: #f7f7f7;  width: 65%; margin: 0 auto;}
+#content-section-4  .schedule-text-wrapper ul{ margin-top: -15px;}
+#content-section-4  .schedule-text-wrapper2 ul{ margin-top: -10px; margin-bottom: -35px;}
+#content-section-4  .schedule-text-wrapper { font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; padding: 30px 50px 30px 50px;  width: 65%; margin: 0 auto; margin-top: -20px}
+#content-section-4  .schedule-text-wrapper2 { font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; padding: 30px 50px 30px 50px; width: 65%; margin: 0 auto;}
 
 #location #location-heading { margin-bottom: 20px; }
 #location #location-heading h1 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; text-align: center; }
@@ -87,17 +88,18 @@ h1, h2, h3, h4, h5, h6 { font-family: PhotinaMTStd; }
 #content-section-7  .schedule-header {font-family: PhotinaMTStd; font-size: 24px; font-weight: normal; text-transform: none; color: #406e82 !important;  width: 65%; margin: 0 auto;}
 #content-section-7 .schedule-text-wrapper { font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; padding: 30px 50px 0px 50px; width: 65%; margin: 0 auto;}
 
+#content-section-8 {background-color: solid-black}
 #content-section-8 .gdlr-content-item h1 {  padding: 30px 50px 0px 50px; text-align: center; font-family: FloodStd; font-size: 36px; font-weight: 500;color: #766e6e; }
 #content-section-8 .testimonial-content h1 {font-family: PhotinaMTStd; font-size: 22px; font-weight: normal; text-align: center; text-transform: none;}
 #content-section-8 .testimonial-content h2 {font-family: PhotinaMTStd; font-size: 22px; font-weight: normal; text-align: center; text-transform: none; width: 65%; margin: 0 auto; color: #E54C56 !important;}
-#content-section-8 .testimonial-content { text-align: justify; color: #406e82 !important;}
 #content-section-8 .gdlr-testimonial-item-wrapper {  width: 65%; margin: 0 auto;}
+#content-section-8 .testimonial-content { text-align: left; color: #406e82 !important; padding: 30px 30px 0px 50px;}
 #content-section-8 .testimonial-content div{color: #E54C56 !important;}
 
-#additional .additional-flood-font { font-family: FloodStd !important; font-weight: 500; }
-#additional .gdlr-content-item h1{font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; text-align: center;}
-#additional .additional-header {font-family: PhotinaMTStd; font-size: 24px; font-weight: normal; text-transform: none; color: #406e82 !important;  width: 65%; margin: 0 auto;}
-#additional .gdlr-content-item p{ font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; margin-top: 12px; width: 65%; margin: 0 auto;}
+#content-section-8 .additional-flood-font { font-family: FloodStd !important; font-weight: 500; }
+#content-section-8 .gdlr-content-item h1{font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; text-align: center;}
+#content-section-8 .additional-header {font-family: PhotinaMTStd; font-size: 24px; font-weight: normal; text-transform: none; color: #406e82 !important;  width: 65%; margin: 0 auto;}
+#content-section-8 .gdlr-content-item p{ font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; margin-top: 12px; width: 65%; margin: 0 auto;}
 
 #testimonial #testimonial-heading { text-align: center; margin-bottom: 60px; }
 #testimonial #testimonial-heading h1 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; }
@@ -105,6 +107,9 @@ h1, h2, h3, h4, h5, h6 { font-family: PhotinaMTStd; }
 
 /* Readings Page */
 #readings-summary { font-family: NeuzeitSLTStd; font-size: 15px; color: #766e6e; }
+
+/* Security Page */
+#content-section-1  .gdlr-content-item {width: 65%; margin: 0 auto; padding-top: 20px}
 
 /* Contact Page */a
 #contact-content h5 { font-family: NeuzeitSLTStd; font-size: 16px; color: #736560; }

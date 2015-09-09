@@ -38,7 +38,13 @@ if( has_nav_menu('main_menu') ){
 		<div class="clear"></div>
 	</form>
 </div>
-<div id="register-button"><a href="https://secure.mobilization.org/civicrm/event/register?reset=1&id=201" target="_self" class="ms-layer ms-btn ms-btn-box ms-btn-l msp-preset-btn-159" data-ease="easeOutQuint">Register Now</a></div>
+
+<?php if( is_user_logged_in() ) { ?>
+
+<div id="register-button"><a href="https://secure.mobilization.org/civicrm/event/register?reset=1&id=201" target="_blank class="ms-layer ms-btn ms-btn-box ms-btn-l msp-preset-btn-159" data-ease="easeOutQuint">Register Now</a></div>
+
+<?php } ?>
+
 <?php
 echo '<div class="gdlr-navigation-gimmick" id="gdlr-navigation-gimmick"></div>';
 echo '<div class="clear"></div>';
