@@ -81,7 +81,10 @@ h1, h2, h3, h4, h5, h6 { font-family: PhotinaMTStd; }
 #gmc-ticket .gdlr-ticket-content span{font-family: NeuzeitSLTStd; font-weight: normal; letter-spacing: 2px; color: #cf2931 !important;}
 #gmc-ticket .gdlr-ticket-head-title span{font-size: 18px;font-family: NeuzeitSLTStd; font-style: normal; color: #978888 !important}
 #gmc-ticket .gdlr-ticket-head{ text-align: center;}
-#gmc-ticket .gdlr-ticket-button{ text-align: center;}
+#gmc-ticket .gdlr-ticket-button{
+    text-align: center;
+    display: none;
+}
 
 #content-section-7  .schedule-flood-font { font-family: FloodStd !important; font-weight: 500; }
 #content-section-7 .gdlr-content-item h1{font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560;  width: 65%; margin: 0 auto;}
