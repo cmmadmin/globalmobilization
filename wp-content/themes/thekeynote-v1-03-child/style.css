@@ -120,6 +120,147 @@ h1, h2, h3, h4, h5, h6 { font-family: PhotinaMTStd; }
 .login #loginform #user_pass{background-color: #EDEDED; color: #736560}
 .login #loginform label{color: #736560}
 
+/* Resources Page */
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.group { display: block; clear: both; margin: 0 auto;}
+/* start commented backslash hack \*/ * html .group { height: 1%; }  /* close commented backslash hack */
+
+#content-browse {
+    border: 1px solid #62564f;
+    background-color: #e9e9e9;
+    z-index: 35; }
+#content-browse a {
+    cursor: pointer;
+}
+
+.sub-menu { max-height: 420px; overflow-y: auto; overflow-x: hidden; z-index: 45; }
+#sortmenu ul { z-index: 45; }
+
+.resource {
+    border-bottom: 1px dashed #9c928f;
+    padding: 20px 0px 20px 60px; }
+.resource h5 { margin-bottom: 20px; }
+.resource h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.resource a { color: #406e82; }
+.resource p { margin: 0; }
+
+.resource-stats {
+    float: left;
+    list-style: none;
+    margin: 0px;
+    width: 280px;
+}
+.resource-stats a { cursor: pointer; }
+.resource-content {
+    float: left;
+    width: 70%;
+    max-width: 625px;
+    padding-right: 40px; }
+.resource-post p { margin-bottom: 1em; }
+.resource-content-wide { float: left; }
+.resource-img { float: left; }
+
+.menu-label { float: left; display: block; padding: 10px 0 0 60px; font-weight: 700; }
+.selected-menu-item { color: #593e34; display: block; }
+
+ul.sub-menu::-webkit-scrollbar {
+    width: 12px;
+}
+ul.sub-menu::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+ul.sub-menu::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+/* Legend on Resources Page */
+.content-separator { border-bottom: 1px dashed #9c928f; padding: 10px 0px 20px 0px; }
+#filter-legend { padding-left: 11px; }
+.legend-item { margin-right: 10px; }
+.legend-item a { cursor: pointer; color: #593E34; }
+.legend-item a.halflings { margin-bottom: 15px; padding-left: 20px; }
+
+/* =Menu
+----------------------------------------------- */
+
+.menu { padding-left: 220px; }
+
+nav.dropmenu { position: relative; float: left; }
+nav.dropmenu ul { list-style: none; margin: 0; }
+nav.dropmenu li span, nav li a, nav li a:visited, #profile-login, #profile-login a:visited { color: #406e82; font-weight:700 !important; letter-spacing: 0.5px; }
+
+.dropmenu li > ul {	margin-left: 0; }
+.dropmenu ul ul { display: none; }
+.dropmenu ul li:hover > ul { display: block; }
+.dropmenu ul { list-style: none; }
+.dropmenu ul:after { content: ""; clear: both; display: block; }
+.dropmenu ul li { float: left; }
+.dropitem, .dropmenu ul li:last-child {	position: relative; }
+.dropitem:hover, .dropmenu ul li:last-child:hover, .dropmenu ul ul li {
+    border-left: 1px solid #303030;
+    border-right: 1px solid #303030;
+}
+.dropmenu ul ul li:last-child {	border-bottom: 1px solid #303030; }
+.dropmenu ul li:hover a, .dropmenu ul li ul li:hover a { color: #f57f24; }
+.dropmenu ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #406e82;
+    text-decoration: none;
+}
+.dropmenu ul ul {
+    background: #f9f9f9;
+    border-radius: 0px; padding: 0;
+    position: absolute; /* top: 100%; */
+    left: -1px;
+}
+.dropmenu ul ul li { float: none; position: relative; }
+.dropmenu ul ul li a, .dropmenu ul ul li span { padding: 5px 20px; min-width: 8em; position: relative; }
+.dropmenu ul ul li:first-child a, .dropmenu ul ul li:first-child span { padding-top: 10px; }
+.dropmenu ul ul li:last-child a, .dropmenu ul ul li:last-child span { padding-bottom: 10px; }
+.dropmenu ul li:hover ul a { color: #406e82; }
+.dropitem:hover, #menu-primary-menu > li:last-child:hover, #browse-cat.dropmenu > ul:hover, #browse-date.dropmenu > ul:hover {
+    background: #f9f9f9 url(images/chevron-down.png) no-repeat 18px;
+    /* background: linear-gradient(top, #4f5964 0%, #f9f9f9 40%);
+    background: -moz-linear-gradient(top, #4f5964 0%, #f9f9f9 40%);
+    background: -webkit-linear-gradient(top, #4f5964 0%,#f9f9f9 40%); */
+}
+.dropitem, #menu-primary-menu > li:last-child, #browse-cat > ul > li, #browse-date > ul > li
+{
+    background: url(images/chevron-down.png) no-repeat 18px;
+    padding-left: 15px;
+}
+li.dropitem > ul.sub-menu > li:after { /* count */
+    content: attr(data-count);
+    font-size: 11px;
+    font-weight: normal;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -9px;
+    padding: 3px 6px;
+    color: white;
+    background: #48515C;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, .26), 0px 1px 0px 0px rgba(255, 255, 255, .15);
+}
+#loading_gif { text-align: center; }
+
+.dropmenu ul li.dropitem ul li a { min-width: 12em;	margin-right: 40px; }
+.dropmenu ul li.dropitem:nth-of-type(3) ul li a, .dropmenu ul li.dropitem:nth-of-type(4) ul li a { min-width: 6em; }
+#sortmenu ul li.dropitem ul li a { min-width: 8em;	margin-right: 0; }
+
 /*** THE KEYNOTE THEME MODULE STYLES ***/
 
 /* Navigation */
@@ -204,8 +345,25 @@ h1, h2, h3, h4, h5, h6 { font-family: PhotinaMTStd; }
     #location #location-content { width: 100%; }
     #gmc-ticket .gdlr-ticket-item { width: 100%; }
     #gmc-ticket .gdlr-ticket-item::before { right: -20px; }
+    .resource-content { width: 100%; }
+    .menu-label { clear: both; }
 }
 
-@media only screen and (max-width: 419px) {
-    #gmc-ticket .gdlr-ticket-item::before { right: -79px; background-size: 60%; background-repeat: no-repeat; }
+@media only screen and (max-width: 1160px) {
+    .gdlr-navigation-wrapper .gdlr-main-menu > li { padding: 0px 11px; }
 }
+
+@media all and (max-width: 1023px) {
+    .menu-label { padding-left: 10px; }
+    .resource { padding-left: 10px; }
+    .resource-content { width: 60%; padding-right: 30px; }
+}
+
+@media only screen and (max-width: 431px) {
+    #gmc-ticket .gdlr-ticket-item::before { right: -79px; background-size: 60%; background-repeat: no-repeat; }
+    .dropmenu ul li { clear: both; }
+}
+
+
+
+
