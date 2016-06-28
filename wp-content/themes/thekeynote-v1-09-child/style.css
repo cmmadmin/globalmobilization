@@ -46,7 +46,7 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
     font-family: NeuzeitSLTStd; 
     font-size: 16px;
 }
-#hero { max-width: 600px; color: #e9e9e9; }
+#hero, #hero-2 { max-width: 600px; color: #e9e9e9; }
 #summary-text, #summary-text-2 { max-width: 65%; color: #4d413d; }
 #summary-text-wider { color: #736560; }
 #hero h1, #summary-text h1, #summary-text-wider h1 { 
@@ -58,6 +58,10 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 #summary-text h1 { color: #736560; }
 #summary-text-wider h1 { font-size: 30px; color: #2a596d; text-align: center; }
 #all-stretch { background-size: cover; }
+#sidekick, #sidekick2 { text-align: center; margin-bottom: 60px; }
+#sidekick h1, #sidekick2 h1 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; margin-bottom: 6px; }
+#sidekick h3, #sidekick2 h3 { font-family: NeuzeitSLTStd; font-size: 16px; color: #766e6e; font-weight: 700; }
+
 
 .gdlr-button {
     border-bottom: 3px solid #736560;
@@ -87,91 +91,22 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
     -moz-box-shadow: none;
     box-shadow: none;
 }
-#waves-wrapper {
-    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, #f2ede3; /* For browsers that do not support gradients */
-    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, background: -webkit-linear-gradient(#f2ede3, #e8bc83); /* For Safari 5.1 to 6.0 */ 
-    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, -o-linear-gradient(#f2ede3, #e8bc83); /* For Opera 11.1 to 12.0 */
-    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, -moz-linear-gradient(#f2ede3, #e8bc83); /* For Firefox 3.6 to 15 */
-    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, linear-gradient(#f2ede3, #e8bc83); /* Standard syntax */
+#gmn-intro{
+    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, #f2ede2; /* For browsers that do not support gradients */
+    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, background: -webkit-linear-gradient(#f2ede3, #406e82); /* For Safari 5.1 to 6.0 */ 
+    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, -o-linear-gradient(#f2ede3, #406e82); /* For Opera 11.1 to 12.0 */
+    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, -moz-linear-gradient(#f2ede3, #406e82); /* For Firefox 3.6 to 15 */
+    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, linear-gradient(#f2ede3, #406e82); /* Standard syntax */
     margin-bottom: -4px;
 }
-#waves-wrapper .container {
-    max-width: none;
-}
-#waves-wrapper, #waves-wrapper .container {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-#content-section-1 #waves-wrapper .gdlr-content-item {
-    width: 100%;
+#gmn-intro h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: #2a596d;
 }
 .gmn-center {
     text-align: center;
 }
-#waves-wrapper p {
-    margin-bottom: 0;
-}
-#waves-wrapper h1 {
-    margin-bottom: 200px;
-}
-#water-drop {
-    position: fixed;
-    top: 290px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-/*#waves-behind {
-    position: relative;
-    margin-top: 200px;
-    z-index: -2;
-}
-#waves-front {
-    margin-top: -255px;
-    margin-bottom: -7px;
-}*/
-#waves-back {
-    background-size: 100% 229px;
-    height: 229px;
-}
-#waves-front {
-    background-size: 100% 129px;
-    height: 129px;
-}
-@media only screen and (max-width: 1180px) {
-    #waves-back {
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 0;
-        padding-top: 19.40% !important;
-    }
-    #waves-front {
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 0;
-        padding-top: 10.93% !important;
-    }
-}
-.home #content-section-1 {
-    position: relative;
-    z-index: 0;
-}
-.home #content-section-2 {
-    position: relative;
-    z-index: -1;
-}
-#underwater {
-    background-color: #77a3b9;
-}
-/*.home #content-section-3 {
-    background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2015/06/halftone-2.gif');
-}
-#gmc-home {
-    background-image: url(http://staging.globalmobilization.org/wp-content/uploads/2016/05/hatched-border-1.png);
-    background-repeat: repeat-x;
-    background-size: auto;
-}*/
 #gmc-home #summary-text {
     color: #dad3c3;
 }
@@ -185,13 +120,9 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 #values h3 { color: #2a596d; }
 #values .testimonial-content p { margin-bottom: 50px; }
 #values .columns:nth-last-child(3) p, #values .columns:nth-last-child(2) p, #values .columns:nth-last-child(1) p { margin-bottom: initial; }
-#testimonial-heading { text-align: center; margin-bottom: 60px; }
-#testimonial-heading h1 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; margin-bottom: 6px; }
-#testimonial-heading h3 { font-family: NeuzeitSLTStd; font-size: 16px; color: #766e6e; font-weight: 700; }
 
 
 /*** Resources Page ***/
-
 .group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 .group { display: block; clear: both; margin: 0 auto;}
 /* start commented backslash hack \*/ * html .group { height: 1%; }  /* close commented backslash hack */
@@ -513,57 +444,3 @@ div.wpcf7-response-output {
     .dropmenu ul li { clear: both; }
     #values .testimonial-content p { margin-bottom: initial; }
 }
-
-
-
-
-
-
-
-/* LEFT OVER FROM JOSH'S WEBSITE
-
-#invitation .gdlr-content-item h1 {padding: 30px; font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560;  width: 55.8%; margin: 0 auto;}
-#invitation .gdlr-content-item p{font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; width: 65%; margin: 0 auto;}
-
-#expect .schedule-flood-font { font-family: FloodStd !important; font-weight: 500; }
-#expect .gdlr-content-item h1{font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560;  width: 65%; margin: 0 auto;}
-#expect .schedule-header {font-family: PhotinaMTStd; font-size: 24px; font-weight: normal; text-transform: none; color: #406e82 !important;  width: 65%; margin: 0 auto;}
-#expect .schedule-text-wrapper ul{ margin-top: -15px;}
-#expect .schedule-text-wrapper2 ul{ margin-top: -10px; margin-bottom: -35px;}
-#expect .schedule-text-wrapper { font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; padding: 30px 50px 30px 50px;  width: 65%; margin: 0 auto; margin-top: -20px}
-#expect .schedule-text-wrapper2 { font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; padding: 30px 50px 30px 50px; width: 65%; margin: 0 auto;}
-
-#register #register-heading { margin-bottom: 30px; }
-#register #register-heading h2 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #f7f7f7; text-align: center; }
-#register #register-caption { margin-top: 30px; }
-#register #register-caption h2 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #f7f7f7; text-align: center; }
-#register #register-caption p { font-family: NeuzeitSLTStd; font-size: 16px; font-weight: 500; color: #f7f7f7; text-align: center;   width: 65%; margin: 0 auto;}
-#register #register-caption a { color: #f7f7f7; border-bottom: solid 2px #CF2932;}
-
-#gmc-ticket .gdlr-ticket-item { text-align: left; width: 745px; margin: 0 auto; position: relative; color: #000000}
-#gmc-ticket .gdlr-ticket-item h1{ margin-bottom: -5px; font-family: PhotinaMTStd; font-size: 20px; font-weight: normal; text-transform: none; color: #406e82 !important;}
-#gmc-ticket .gdlr-ticket-content span{font-family: NeuzeitSLTStd; font-weight: normal; letter-spacing: 2px; color: #cf2931 !important;}
-#gmc-ticket .gdlr-ticket-head-title span{font-size: 18px;font-family: NeuzeitSLTStd; font-style: normal; color: #978888 !important}
-#gmc-ticket .gdlr-ticket-head{ text-align: center;}
-#gmc-ticket .gdlr-ticket-button{ 
-    text-align: center;
-    display: none;
-}
-
-#travel .schedule-flood-font { font-family: FloodStd !important; font-weight: 500; }
-#travel .gdlr-content-item h1{font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560;  width: 65%; margin: 0 auto;}
-#travel .schedule-header {font-family: PhotinaMTStd; font-size: 24px; font-weight: normal; text-transform: none; color: #406e82 !important;  width: 65%; margin: 0 auto;}
-#travel .schedule-text-wrapper { font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; padding: 30px 50px 0px 50px; width: 65%; margin: 0 auto;}
-
-#one_location {background-color: solid-black}
-#one_location .gdlr-content-item h1 {  padding: 30px 50px 0px 50px; text-align: center; font-family: FloodStd; font-size: 36px; font-weight: 500;color: #766e6e; }
-#one_location .testimonial-content h1 {font-family: PhotinaMTStd; font-size: 22px; font-weight: normal; text-align: center; text-transform: none;}
-#one_location .testimonial-content h2 {font-family: PhotinaMTStd; font-size: 22px; font-weight: normal; text-align: center; text-transform: none; width: 65%; margin: 0 auto; color: #E54C56 !important;}
-#one_location .gdlr-testimonial-item-wrapper {  width: 65%; margin: 0 auto;}
-#one_location .testimonial-content { text-align: left; color: #406e82 !important; padding: 30px 30px 0px 50px;}
-#one_location .testimonial-content div{color: #E54C56 !important;}
-
-#one_location .additional-flood-font { font-family: FloodStd !important; font-weight: 500; }
-#one_location .gdlr-content-item h1{font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; text-align: center;}
-#one_location .additional-header {font-family: PhotinaMTStd; font-size: 24px; font-weight: normal; text-transform: none; color: #406e82 !important;  width: 65%; margin: 0 auto;}
-#one_location .gdlr-content-item p{ font-family: NeuzeitSLTStd !important; font-size: 16px; color: #817474; margin-top: 12px; width: 65%; margin: 0 auto;}*/
