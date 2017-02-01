@@ -58,10 +58,32 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 #summary-text h1 { color: #736560; }
 #summary-text-wider h1 { font-size: 30px; color: #2a596d; text-align: center; }
 #all-stretch { background-size: cover; }
-#sidekick, #sidekick2 { text-align: center; margin-bottom: 60px; }
-#sidekick h1, #sidekick2 h1 { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; margin-bottom: 6px; }
-#sidekick h3, #sidekick2 h3 { font-family: NeuzeitSLTStd; font-size: 16px; color: #766e6e; font-weight: 700; }
 
+#sidekick, #sidekick2 { text-align: center; margin-bottom: 60px; }
+#sidekick h1, #sidekick2 h1, .gdlr-item-title-wrapper .gdlr-item-title.gdlr-title-large { 
+	font-family: FloodStd; 
+	font-size: 36px; 
+	font-weight: 500; 
+	color: #736560; 
+	margin-bottom: 6px; 
+	line-height: 1.3;
+	letter-spacing: normal;
+}
+
+#sidekick h3, #sidekick2 h3, .gdlr-item-title-wrapper .gdlr-item-title-caption { 
+	font-family: NeuzeitSLTStd; 
+	font-size: 16px; 
+	color: #766e6e; 
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+.gdlr-skin-dark-skin .gdlr-item-title-caption.gdlr-skin-info {
+	color: #766e6e; 
+}
+.no-skin .gdlr-item-title-wrapper .gdlr-item-title.gdlr-title-large {
+	color: #406e82;
+}
 
 .gdlr-button {
     border-bottom: 3px solid #736560;
@@ -117,7 +139,7 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 
 /*** GMC Page ***/
 #testimonies, #values {background-repeat: repeat-x; background-color: #d9d3c3;}
-#values h3 { color: #2a596d; }
+.gdlr-skin-dark-skin .testimonial-content h3 { color: #2a596d; }
 #values .testimonial-content p { margin-bottom: 50px; }
 #values .columns:nth-last-child(3) p, #values .columns:nth-last-child(2) p, #values .columns:nth-last-child(1) p { margin-bottom: initial; }
 
@@ -157,7 +179,7 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
     margin-bottom: 0px;
     font-size: 14px;
 }
-.resource a { color: #406e82; }
+a { color: #406e82; }
 .resource p { margin: 0; }
 
 .resource-stats {
@@ -353,7 +375,7 @@ div.wpcf7-response-output {
 /* Speakers */
 .gdlr-speaker-item .gdlr-speaker-item-title { font-family: NeuzeitSLTStd; font-size: 16px; color: #4d413d; }
 .gdlr-speaker-item .gdlr-speaker-item-position { font-family: SourceCodePro; font-style: normal; font-size: 13px; color: #766e6e; }
-.gdlr-item-title-caption { font-family: NeuzeitSLTStd !important; font-size: 16px; margin: 0; }
+.gdlr-item-title-caption { font-family: NeuzeitSLTStd; font-size: 16px; margin: 0; }
 .gdlr-speaker-thumbnail-overlay { background-color: #9b131a !important; }
 .gdlr-item-title-wrapper .gdlr-flex-prev, .gdlr-item-title-wrapper .gdlr-flex-next { background-color: #9b131a !important; }
 
@@ -387,7 +409,19 @@ div.wpcf7-response-output {
 .gdlr-styled-box-body.with-head .gdlr-button { font-family: SourceCodePro; }
 
 /* Item Titles */
-.gdlr-item-title-wrapper .gdlr-item-title.gdlr-title-medium { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; }
+/*.gdlr-item-title-wrapper .gdlr-item-title.gdlr-title-medium { font-family: FloodStd; font-size: 36px; font-weight: 500; color: #736560; }*/
+.gdlr-item-title-wrapper .gdlr-item-title.gdlr-title-medium { 
+	font-family: PhotinaMTStd, "Playfair Display", Georgia;
+	font-size: 30px;
+	font-weight: 400;
+	color: #454545;
+	text-transform: initial;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.gdlr-title-item .gdlr-item-title-wrapper .gdlr-item-title.gdlr-title-medium { 
+	font-size: 30px;
+}
 
 /* Footer */
 .footer-wrapper { font-family: NeuzeitSLTStd; }
@@ -400,9 +434,8 @@ div.wpcf7-response-output {
 
 
 /*** MEDIA QUERIES ***/
-@media only screen and (max-width: 959px) {
-    body div.gdlr-logo { margin: 0 auto !important }
-    #summary-text-wider h1 { font-size: 24px; }
+@media only screen and (max-width: 1160px) {
+    .gdlr-navigation-wrapper .gdlr-main-menu > li { padding: 0px 11px; }
 }
 
 @media only screen and (max-width: 1070px) {
@@ -414,23 +447,7 @@ div.wpcf7-response-output {
         -o-transform: scale(0.8); /* Opera 10.5+ */
         transform: scale(0.8); 
     }
-}
-/*
-@media all and (min-width: 768px ) {
-    .gdlr-full-size-wrapper, .gdlr-color-wrapper, .gdlr-parallax-wrapper {background-size: cover; background-repeat: repeat-y; }
-}*/
-
-@media all and (max-width: 767px) {
-    #hero, #summary-text { max-width: 100%; width: 100%; }
-    #location #location-content { max-width: 100%; width: 100%; }
-    #gmc-ticket .gdlr-ticket-item { max-width: 100%; width: 100%; }
-    #gmc-ticket .gdlr-ticket-item::before { right: -20px; }
-    .resource-content { max-width: 100%; width: 100%; }
-    .menu-label { clear: both; }
-}
-
-@media only screen and (max-width: 1160px) {
-    .gdlr-navigation-wrapper .gdlr-main-menu > li { padding: 0px 11px; }
+    .gdlr-page-title-wrapper {padding: 40px 0px 25px;}
 }
 
 @media all and (max-width: 1023px) {
@@ -439,8 +456,30 @@ div.wpcf7-response-output {
     .resource-content { width: 60%; padding-right: 30px; }
 }
 
+@media only screen and (max-width: 959px) {
+    body div.gdlr-logo { margin: 0 auto !important }
+    #summary-text-wider h1 { font-size: 24px; }
+    #gmn-intro h1 {font-size: 36px; }
+}
+
+@media all and (max-width: 767px) {
+    /* These used to have width: 100% too. Removing them might have screwed things up. */
+    #hero, #summary-text { max-width: 100%; }
+    #location #location-content { max-width: 100%; }
+    #gmc-ticket .gdlr-ticket-item { max-width: 100%; }
+    #gmc-ticket .gdlr-ticket-item::before { right: -20px; }
+    .resource-content { max-width: 100%; }
+    .menu-label { clear: both; }
+    .footer-wrapper .widget.gdlr-widget {margin-bottom: 30px;}
+}
+
 @media only screen and (max-width: 431px) {
     #gmc-ticket .gdlr-ticket-item::before { right: -79px; background-size: 60%; background-repeat: no-repeat; }
     .dropmenu ul li { clear: both; }
     #values .testimonial-content p { margin-bottom: initial; }
+}
+
+/* May screw things up */
+@media only screen and (max-width: 419px) {
+    body .container {max-width: 350px !important; }
 }
