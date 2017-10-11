@@ -8,7 +8,7 @@ jQuery(document).ready(function ($) {
     var filter_region = [];
     var filter_moblevel = [];
 	var filter_language = [];
-    var sort_by = 'Most Recent';
+    var sort_by = 'Newest';
     
     var load_posts = function(){
             $.ajax({

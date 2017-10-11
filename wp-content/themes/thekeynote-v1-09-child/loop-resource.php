@@ -5,12 +5,12 @@ require_once('../../../wp-load.php');
 
 // Our variables
 $numPosts = (isset($_GET['numPosts'])) ? $_GET['numPosts'] : 0; // requested number of pages
-$page = (isset($_GET['pageNumber'])) ? $_GET['pageNumber'] : 0; // the “page” number
+$page = (isset($_GET['pageNumber'])) ? $_GET['pageNumber'] : 0; // the page number
 
 $resRegion = (isset($_GET['regionArray'])) ? $_GET['regionArray'] :  array();
 $resMobLevel = (isset($_GET['mobLevelArray'])) ? $_GET['mobLevelArray'] :  array();
 $resLanguage = (isset($_GET['languageArray'])) ? $_GET['languageArray'] :  array();
-$resSort = (isset($_GET['sortBy'])) ? $_GET['sortBy'] : 'Most Recent';
+$resSort = (isset($_GET['sortBy'])) ? $_GET['sortBy'] : 'Newest';
 
 echo $numPosts;
 echo $page;

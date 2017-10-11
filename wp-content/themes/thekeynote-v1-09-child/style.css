@@ -136,7 +136,8 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
     background-size: cover;
 }
 
-#gmc-ticket .gdlr-ticket-head-price {
+/*Hide for GMC2017*/
+.gdlr-ticket-head-price {
     display: none;
 }
 

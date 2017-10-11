@@ -122,7 +122,7 @@ if( !function_exists('globmob_tax_url') ) :
       if( is_singular('resource') )
         $output .= '<a href="'.get_term_link($term->slug, $tax).'">'.$term->name.'</a>';
       else
-        $output .= "<a data-tax='" . $tax . "' data-term='" . $term->slug . "' class='tax-link'>" . $term->name . "</a>";
+        $output .= "<a data-tax='" . $tax . "' data-term='" . $term->slug . "' class='tax-link' title='" . $term->description . "'>" . $term->name . "</a>";
     }
 
     return $output;
@@ -177,7 +177,7 @@ if( !function_exists('globmob_resource_browse') ) :
         <span class="menu-label">Sort by:</span>
         <nav id="sortmenu" class="dropmenu">
           <ul>
-            <li class="dropitem"><a id="current-sort" href="#">Most Recent</a>
+            <li class="dropitem"><a id="current-sort" href="#">Newest</a>
               <ul>
                 <li data-sortby="Title: A-Z" class="sort-item"><span class='selected-menu-item'>Title: A-Z</span></li>
                 <li data-sortby="Title: Z-A" class="sort-item"><a>Title: Z-A</a></li>
