@@ -114,11 +114,11 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
     box-shadow: none;
 }
 #gmn-intro{
-    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, #f2ede2; /* For browsers that do not support gradients */
-    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, background: -webkit-linear-gradient(#f2ede3, #406e82); /* For Safari 5.1 to 6.0 */ 
-    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, -o-linear-gradient(#f2ede3, #406e82); /* For Opera 11.1 to 12.0 */
-    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, -moz-linear-gradient(#f2ede3, #406e82); /* For Firefox 3.6 to 15 */
-    background: url("http://staging.globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, linear-gradient(#f2ede3, #406e82); /* Standard syntax */
+    background: url("https://globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, #f2ede2; /* For browsers that do not support gradients */
+    background: url("https://globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, background: -webkit-linear-gradient(#f2ede3, #406e82); /* For Safari 5.1 to 6.0 */
+    background: url("https://globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, -o-linear-gradient(#f2ede3, #406e82); /* For Opera 11.1 to 12.0 */
+    background: url("https://globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, -moz-linear-gradient(#f2ede3, #406e82); /* For Firefox 3.6 to 15 */
+    background: url("https://globalmobilization.org/wp-content/uploads/2016/05/noise.png") repeat, linear-gradient(#f2ede3, #406e82); /* Standard syntax */
     margin-bottom: -4px;
 }
 #gmn-intro h1 {
@@ -154,7 +154,7 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 /* start commented backslash hack \*/ * html .group { height: 1%; }  /* close commented backslash hack */
 
 #resources-wrapper {
-    background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2015/06/halftone-2.gif');
+    background-image: url('https://globalmobilization.org/wp-content/uploads/2015/06/halftone-2.gif');
     padding-top: 60px;
 }
 #resources-wrapper #content-browse, #resources-wrapper #content-wrap {
