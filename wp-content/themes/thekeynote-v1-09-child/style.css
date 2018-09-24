@@ -403,7 +403,7 @@ div.wpcf7-response-output {
 .gdlr-ticket-item .gdlr-ticket-button { background-color: #cf2931 !important; }
 
 /* Testimonials */
-.gdlr-testimonial-item .testimonial-content { font-family: NeuzeitSLTStd; font-size: 15px; color: #766e6e !important; }
+.gdlr-testimonial-item .testimonial-content, #values #membership-info{ font-family: NeuzeitSLTStd; font-size: 15px; color: #766e6e !important; }
 .gdlr-testimonial-item.plain-style .testimonial-info { font-family: SourceCodePro; font-size: 13px;  }
 .gdlr-testimonial-item .testimonial-author, .gdlr-testimonial-item .testimonial-position { color: #2a596d !important; }
 
