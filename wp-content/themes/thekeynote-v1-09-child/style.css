@@ -85,11 +85,29 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 	color: #406e82;
 }
 
-.gdlr-button {
+.gdlr-content .gdlr-button, .footer-wrapper .gdlr-button {
     border-bottom: 3px solid #736560;
     padding-bottom: 12px;
+    color: #406e82;
+    background-color: #f2bf81;"
 }
+
+.gdlr-button.grey-button, .footer-wrapper .gdlr-button.grey-button {
+    color: #2a596d;
+    background-color: #dad3c3;
+}
+
+.footer-wrapper .gdlr-button.grey-button{
+    margin-top: 10px;
+}
+
+.footer-wrapper #text-3 .textwidget {
+    text-align: center;
+}
+
 .gdlr-content-item {max-width: 1140px; margin-left: auto; margin-right: auto; padding-right: 20px; padding-left: 20px;}
+
+.gdlr-content h2 {font-weight: bold; font-size: 17px; margin-bottom: 10px}
 
 
 
@@ -141,9 +159,12 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
     display: none;
 }
 
+/*** Dark Skin Theme ***/
+.gdlr-skin-dark-skin .testimonial-content h3 { color: #2a596d; }
+.gdlr-skin-dark-skin h2 {font-family: NeuzeitSLTStd; color: #766e6e !important; }
+
 /*** GMC Page ***/
 #testimonies, #values {background-repeat: repeat-x; background-color: #d9d3c3;}
-.gdlr-skin-dark-skin .testimonial-content h3 { color: #2a596d; }
 #values .testimonial-content p { margin-bottom: 50px; }
 #values .columns:nth-last-child(3) p, #values .columns:nth-last-child(2) p, #values .columns:nth-last-child(1) p { margin-bottom: initial; }
 
@@ -403,7 +424,7 @@ div.wpcf7-response-output {
 .gdlr-ticket-item .gdlr-ticket-button { background-color: #cf2931 !important; }
 
 /* Testimonials */
-.gdlr-testimonial-item .testimonial-content, #values #membership-info{ font-family: NeuzeitSLTStd; font-size: 15px; color: #766e6e !important; }
+.gdlr-testimonial-item .testimonial-content, #values #membership-info { font-family: NeuzeitSLTStd; font-size: 15px; color: #766e6e !important; max-width: 65%; }
 .gdlr-testimonial-item.plain-style .testimonial-info { font-family: SourceCodePro; font-size: 13px;  }
 .gdlr-testimonial-item .testimonial-author, .gdlr-testimonial-item .testimonial-position { color: #2a596d !important; }
 
@@ -429,8 +450,7 @@ div.wpcf7-response-output {
 
 /* Footer */
 .footer-wrapper { font-family: NeuzeitSLTStd; }
-.footer-wrapper a { color: #cf2931 !important; }
-.footer-wrapper a.gdlr-button { color: #dad7d1 !important; }
+.footer-wrapper a { color: #cf2931; }
 
 /* Copyright */
 .footer-wrapper .copyright-wrapper { font-family: SourceCodePro; font-size: 13px; color: #766e6e !important; }
