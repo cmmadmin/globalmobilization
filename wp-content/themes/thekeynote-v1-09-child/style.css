@@ -167,6 +167,69 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 #testimonies, #values {background-repeat: repeat-x; background-color: #d9d3c3;}
 #values .testimonial-content p { margin-bottom: 50px; }
 #values .columns:nth-last-child(3) p, #values .columns:nth-last-child(2) p, #values .columns:nth-last-child(1) p { margin-bottom: initial; }
+.page-id-897 #gmc-home{
+    background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-Divider-x2.png'), 
+    url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/top-view-of-copacabana-beach-rio-de-janeiro-brazil-picture-id530942766-copy2.jpg');
+    background-size: 100% auto, auto 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom, center top;
+}
+.page-id-897 .gdlr-personnel-item .personnel-author-image {
+    border-color: #719f49;
+}
+.page-id-897 .gdlr-frame.frame-type-circle{
+    -moz-border-radius: initial;
+    -webkit-border-radius: initial;
+    border-radius: initial;
+}
+.page-id-897 .gdlr-frame.frame-type-circle::after {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    background: url(http://staging.globalmobilization.org/wp-content/uploads/2019/05/img-clip3.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+/* Titled Objects */
+.marx-button {
+    /*background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/marx-button-1_y.png');*/   
+    /*-webkit-clip-path: polygon(10% 0, 90% 18%, 100% 89%, 0% 100%);
+    clip-path: polygon(10% 0, 90% 18%, 100% 89%, 0% 100%);*/
+    display: inline-block;
+    transform: rotate(3deg);
+    background-color: #e7d03d;
+    border-radius: 10px;
+    margin: 0 20px 15px 0;
+    border-bottom: 3px #144b71 solid;
+}
+.marx-button.green {
+    background-color: #719f49;
+}
+.marx-button.mb-two { transform: rotate(1deg); }
+.marx-button.mb-three { transform: rotate(-2deg); }
+.marx-button a.gdlr-button {
+    color: #144b71;
+    transform: rotate(-3deg);
+    background-color: transparent;
+    margin: 0;
+    /*background-size: 100% 100%;*/
+    border-bottom: 0;
+}
+.marx-button.green a.gdlr-button {
+    color: #fff;
+}
+.marx-button.mb-two a { transform: rotate(-1deg); }
+.marx-button.mb-three a { transform: rotate(2deg); }
+.marx-button:hover {
+    position: relative;
+    top: -1px;
+    transition: 1s;
+}
+#marx-img-1 {
+    background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/img-clip.png');
+    background-size: 100% 100%;
+}
 
 
 /*** Resources Page ***/
