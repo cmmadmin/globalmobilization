@@ -167,12 +167,25 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 #testimonies, #values {background-repeat: repeat-x; background-color: #d9d3c3;}
 #values .testimonial-content p { margin-bottom: 50px; }
 #values .columns:nth-last-child(3) p, #values .columns:nth-last-child(2) p, #values .columns:nth-last-child(1) p { margin-bottom: initial; }
+
+/*** GMC2019 ***/
 .page-id-897 #gmc-home{
     background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-Divider-x2.png'), 
-    url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/top-view-of-copacabana-beach-rio-de-janeiro-brazil-picture-id530942766-copy2.jpg');
+    url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/top-view-of-copacabana-beach-rio-de-janeiro-brazil-picture-id530942766.jpg');
     background-size: 100% auto, auto 100%;
     background-repeat: no-repeat;
-    background-position: center bottom, center top;
+    background-position: center 101%, center top;
+}
+.page-id-897 #nineteen-format, .page-id-897 #nineteen-speakers, .page-id-897 #nineteen-affinity, .page-id-897 #nineteen-transportation {
+    background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-stripes.png');
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.page-id-897 #nineteen-speakers {
+    background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-wave.png');
+}
+.page-id-897 #nineteen-affinity {
+    background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-o.png');
 }
 .page-id-897 .gdlr-personnel-item .personnel-author-image {
     border-color: #719f49;
@@ -190,40 +203,58 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
     background: url(http://staging.globalmobilization.org/wp-content/uploads/2019/05/img-clip3.png) no-repeat;
     background-size: 100% 100%;
 }
-
-/* Titled Objects */
-.marx-button {
-    /*background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/marx-button-1_y.png');*/   
-    /*-webkit-clip-path: polygon(10% 0, 90% 18%, 100% 89%, 0% 100%);
-    clip-path: polygon(10% 0, 90% 18%, 100% 89%, 0% 100%);*/
-    display: inline-block;
-    transform: rotate(3deg);
-    background-color: #e7d03d;
-    border-radius: 10px;
-    margin: 0 20px 15px 0;
-    border-bottom: 3px #144b71 solid;
+.page-id-897 .gdlr-personnel-item .personnel-item-inner {
+    background-color: #fff;
 }
-.marx-button.green {
-    background-color: #719f49;
+.page-id-897 .two-fifth .gdlr-ticket-button, .page-id-897 .two-fifth .gdlr-ticket-head {
+    display: none;
 }
-.marx-button.mb-two { transform: rotate(1deg); }
-.marx-button.mb-three { transform: rotate(-2deg); }
-.marx-button a.gdlr-button {
-    color: #144b71;
-    transform: rotate(-3deg);
-    background-color: transparent;
-    margin: 0;
-    /*background-size: 100% 100%;*/
-    border-bottom: 0;
+.page-id-897 .three-fifth .gdlr-ticket-head {
+    background-color: #eff8ff;
 }
-.marx-button.green a.gdlr-button {
+.page-id-897 .two-fifth .gdlr-ticket-item .gdlr-ticket-content {
+    text-align: left;
+    background-color: #144b71;
+    padding: 35px 35px 20px 35px;
+}
+.page-id-897 .two-fifth .gdlr-ticket-content p {
     color: #fff;
 }
-.marx-button.mb-two a { transform: rotate(-1deg); }
-.marx-button.mb-three a { transform: rotate(2deg); }
+.page-id-897 .two-fifth .gdlr-ticket-content h1 {
+    color: #9bbd63;
+}
+.page-id-897 .three-fifth .gdlr-ticket-content {
+    background-color: #fff;
+}
+
+/* Titled Objects */
+a.gdlr-button.marx-button {
+    color: #144b71;
+    background-size: 100% 100%; 
+    display: inline-block;
+    background-color: transparent;
+    margin: 0 20px 15px 0;
+    border-bottom: 0;
+    padding: 25px;
+}
+.marx-button.mb-yellow.mb-one {background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/mb-sm-y-1.png');}
+.marx-button.mb-yellow.mb-two {background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/mb-sm-y-2.png');}
+.marx-button.mb-yellow.mb-three {background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/mb-sm-y-3.png');}
+.marx-button.mb-green.mb-one {background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/mb-sm-g-1.png');}
+.marx-button.mb-green.mb-two {background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/mb-sm-g-2.png');}
+.marx-button.mb-green.mb-three {background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/mb-sm-g-3.png');}
+
+.marx-button.mb-large.mb-yellow.mb-one {background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/mb-lg-y-1.png');}
+.marx-button.mb-large.mb-yellow.mb-two {background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/mb-lg-y-2.png');}
+.marx-button.mb-large.mb-yellow.mb-three {background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/mb-lg-y-3.png');}
+.marx-button.mb-large.mb-green.mb-one {background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/mb-lg-g-1.png');}
+.marx-button.mb-large.mb-green.mb-two {background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/mb-lg-g-2.png');}
+.marx-button.mb-large.mb-green.mb-three {background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/mb-lg-g-3.png');}
+
+a.marx-button.mb-green.gdlr-button {color: #fff;}
 .marx-button:hover {
     position: relative;
-    top: -1px;
+    top: -2px;
     transition: 1s;
 }
 #marx-img-1 {
@@ -484,7 +515,7 @@ div.wpcf7-response-output {
 .gdlr-ticket-item .gdlr-ticket-head-price { font-family: NeuzeitSLTStd; font-weight: normal; letter-spacing: 2px; color: #cf2931 !important; }
 .gdlr-ticket-item .gdlr-ticket-content { font-family: NeuzeitSLTStd; font-style: normal; color: #978888 !important; }
 .gdlr-ticket-item .gdlr-ticket-content p { font-style: normal; }
-.gdlr-ticket-item .gdlr-ticket-button { background-color: #cf2931 !important; }
+.gdlr-ticket-item .gdlr-ticket-button { background-color: #e6cc32 !important; }
 
 /* Testimonials */
 .gdlr-testimonial-item .testimonial-content, #values #membership-info { font-family: NeuzeitSLTStd; font-size: 15px; color: #766e6e !important; max-width: 65%; }
@@ -558,6 +589,8 @@ div.wpcf7-response-output {
     .resource-content { max-width: 100%; }
     .menu-label { clear: both; }
     .footer-wrapper .widget.gdlr-widget {margin-bottom: 30px;}
+    #gmc-member-disc-ticket .gdlr-ticket-item: { background-color: #9cbd64 !important; }
+
 }
 
 @media only screen and (max-width: 431px) {
