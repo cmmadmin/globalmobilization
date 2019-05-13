@@ -20,9 +20,19 @@
     font-weight: normal;
 }
 @font-face {
+    font-family: NeuzeitSLTStd;
+    src: url("fonts/Neuzeit_S_LT_Std/NeuzeitSLTStd-BookHeavy.otf");
+    font-weight: bold;
+}
+@font-face {
     font-family: PhotinaMTStd;
     src: url("fonts/Photina_MT_Std/PhotinaMTStd.otf");
     font-weight: normal;
+}
+@font-face {
+    font-family: PhotinaMTStd;
+    src: url("fonts/Photina_MT_Std/PhotinaMTStd-SemiBold.otf");
+    font-weight: bold;
 }
 @font-face {
     font-family: FloodStd;
@@ -43,7 +53,7 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 
 #hero, #summary-text, #summary-text-2, #summary-text-wider { 
     margin: 0 auto;
-    font-family: NeuzeitSLTStd; 
+    font-family: NeuzeitSLTStd, Roboto, Helvetica, Arial; 
     font-size: 16px;
 }
 #hero, #hero-2 { max-width: 600px; color: #e9e9e9; }
@@ -71,7 +81,7 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 }
 
 #sidekick h3, #sidekick2 h3, .gdlr-item-title-wrapper .gdlr-item-title-caption { 
-	font-family: NeuzeitSLTStd; 
+	font-family: NeuzeitSLTStd, Roboto, Helvetica, Arial; 
 	font-size: 16px; 
 	color: #766e6e; 
 	font-weight: 700;
@@ -109,6 +119,11 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 
 .gdlr-content h2 {font-weight: bold; font-size: 17px; margin-bottom: 10px}
 
+.nowrap {
+    white-space: nowrap;
+    word-break: keep-all;
+}
+
 
 
 
@@ -118,10 +133,10 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 
 /*** Home Page ***/
 
-#gdlr-responsive-navigation.dl-menuwrapper button {
-    background-color: 
+/*#gdlr-responsive-navigation.dl-menuwrapper button {
+    background-color: ;
 }
-.gdlr-header-wrapper {
+*/.gdlr-header-wrapper {
     -webkit-box-shadow: 0px 4px 0px 0px rgba(5,5,5,0.2);
     -moz-box-shadow: 0px 4px 0px 0px rgba(5,5,5,0.2);
     box-shadow: 0px 4px 0px 0px rgba(5,5,5,0.2);
@@ -161,7 +176,7 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 
 /*** Dark Skin Theme ***/
 .gdlr-skin-dark-skin .testimonial-content h3 { color: #2a596d; }
-.gdlr-skin-dark-skin h2 {font-family: NeuzeitSLTStd; color: #766e6e !important; }
+.gdlr-skin-dark-skin h2 {font-family: NeuzeitSLTStd, Roboto, Helvetica, Arial; color: #766e6e !important; }
 
 /*** GMC Page ***/
 #testimonies, #values {background-repeat: repeat-x; background-color: #d9d3c3;}
@@ -169,14 +184,47 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 #values .columns:nth-last-child(3) p, #values .columns:nth-last-child(2) p, #values .columns:nth-last-child(1) p { margin-bottom: initial; }
 
 /*** GMC2019 ***/
+.page-id-897 h1 {
+    font-size: 30px;
+    font-family: NeuzeitSLTStd, Roboto, Helvetica, Arial;
+    color: #144b71;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.page-id-897 h2 {
+    font-family: PhotinaMTStd, "Playfair Display", Georgia;
+    font-size: 24px;
+    text-align: center;
+    color: #719f49;
+}
+.page-id-897 .intro-text {
+    font-family: PhotinaMTStd, "Playfair Display", Georgia;
+    font-size: 30px;
+    text-transform: initial;
+    font-weight: normal;
+    letter-spacing: initial;
+}
 .page-id-897 #gmc-home{
     background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-Divider-x2.png'), 
-    url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/top-view-of-copacabana-beach-rio-de-janeiro-brazil-picture-id530942766.jpg');
+    url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-Wave-Mosaic-Banner-Image-HD-530942766-1934x387px.jpg');
     background-size: 100% auto, auto 100%;
     background-repeat: no-repeat;
     background-position: center 101%, center top;
 }
-.page-id-897 #nineteen-format, .page-id-897 #nineteen-speakers, .page-id-897 #nineteen-affinity, .page-id-897 #nineteen-transportation {
+.page-id-897 #nineteen-format .container {
+    background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/gmc2017-auditorium.jpg'),
+    url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-Divider2-B.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center 0%, center 100%;
+    background-color: #9bbd63;
+    padding: 349px 20px 60px 20px;
+    color: #454545;
+}
+.page-id-897 #nineteen-format .container h2 {color: #454545;}
+/*.page-id-897 #nineteen-format, .page-id-897 #nineteen-speakers, .page-id-897 #nineteen-affinity, .page-id-897 #nineteen-transportation {
     background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-stripes.png');
     background-repeat: repeat-x;
     background-position: top;
@@ -187,7 +235,7 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 .page-id-897 #nineteen-affinity {
     background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-o.png');
 }
-.page-id-897 .gdlr-personnel-item .personnel-author-image {
+*/.page-id-897 .gdlr-personnel-item .personnel-author-image {
     border-color: #719f49;
 }
 .page-id-897 .gdlr-frame.frame-type-circle{
