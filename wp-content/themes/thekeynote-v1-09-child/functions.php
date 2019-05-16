@@ -199,3 +199,13 @@ if( !function_exists('globmob_resource_browse') ) :
   }
 endif; // globmob_resource_browse
 
+
+function my_add_styles() {
+
+if ( is_page('gmc-2019') || is_front_page() ) {
+  wp_enqueue_style('gmc2019', get_stylesheet_directory_uri() . '/css/gmc2019.css');
+}
+
+}
+
+add_action('wp_enqueue_scripts', 'my_add_styles');
