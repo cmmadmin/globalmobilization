@@ -135,8 +135,8 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 
 /*#gdlr-responsive-navigation.dl-menuwrapper button {
     background-color: ;
-}
-*/.gdlr-header-wrapper {
+}*/
+.gdlr-header-wrapper {
     -webkit-box-shadow: 0px 4px 0px 0px rgba(5,5,5,0.2);
     -moz-box-shadow: 0px 4px 0px 0px rgba(5,5,5,0.2);
     box-shadow: 0px 4px 0px 0px rgba(5,5,5,0.2);
@@ -182,6 +182,7 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
 #testimonies, #values {background-repeat: repeat-x; background-color: #d9d3c3;}
 #values .testimonial-content p { margin-bottom: 50px; }
 #values .columns:nth-last-child(3) p, #values .columns:nth-last-child(2) p, #values .columns:nth-last-child(1) p { margin-bottom: initial; }
+
 
 
 /*** Resources Page ***/
