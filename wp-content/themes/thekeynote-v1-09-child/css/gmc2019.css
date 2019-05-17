@@ -1,7 +1,7 @@
 /*
 ******************************************
 * Global Mobilization Consultation 2019
-* Include .postid-XXXX in all styles where XXXX is the page id of this conference.
+* Include .page-id-XXXX in all styles where XXXX is the page id of this conference.
 ******************************************
  */
 .page-id-897 h1 {
@@ -32,6 +32,10 @@
     background-size: 100% auto, auto 100%;
     background-repeat: no-repeat;
     background-position: center 101%, center top;
+}
+.home #gmc-home.gdlr-background-image {
+    background-image: url('https://www.globalmobilization.org/wp-content/uploads/2019/05/Marx-Divider-canvas.png'), 
+    url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-Wave-Mosaic-Banner-Image-HD-530942766-1934x387px.jpg');
 }
 .page-id-897 #nineteen-format .container {
     background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/gmc2017-auditorium.jpg'),
