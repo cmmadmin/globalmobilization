@@ -59,8 +59,13 @@
 .page-id-897 #nineteen-affinity {
     background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-o.png');
 }
-*/.page-id-897 .gdlr-personnel-item .personnel-author-image {
+*/
+.page-id-897 #nineteen-affinity {
+    display: none;
+}
+.page-id-897 .gdlr-personnel-item .personnel-author-image {
     border-color: #719f49;
+    display: none;
 }
 .page-id-897 .gdlr-frame.frame-type-circle{
     -moz-border-radius: initial;
@@ -77,6 +82,10 @@
 }
 .page-id-897 .gdlr-personnel-item .personnel-item-inner {
     background-color: #fff;
+    display: none;
+}
+.page-id-897 #discount-ticket{
+    display: none;
 }
 .page-id-897 .two-fifth .gdlr-ticket-button, .page-id-897 .two-fifth .gdlr-ticket-head {
     display: none;
