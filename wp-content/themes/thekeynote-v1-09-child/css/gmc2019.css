@@ -26,7 +26,7 @@
     font-weight: normal;
     letter-spacing: initial;
 }
-.page-id-897 #gmc-home{
+#gmc-home.gdlr-background-image { /*doesn't include page id since we want it to show on the front page as well */
     background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-Divider-x2.png'), 
     url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-Wave-Mosaic-Banner-Image-HD-530942766-1934x387px.jpg');
     background-size: 100% auto, auto 100%;
