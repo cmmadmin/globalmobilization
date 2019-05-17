@@ -1,7 +1,7 @@
 /*
 ******************************************
 * Global Mobilization Consultation 2019
-* Include .postid-XXXX in all styles where XXXX is the page id of this conference.
+* Include .page-id-XXXX in all styles where XXXX is the page id of this conference.
 ******************************************
  */
 .page-id-897 h1 {
@@ -41,9 +41,9 @@
     background-position: center 0%, center 100%;
     background-color: #9bbd63;
     padding: 349px 20px 60px 20px;
-    color: #454545;
+    color: #fff;
 }
-.page-id-897 #nineteen-format .container h2 {color: #454545;}
+.page-id-897 #nineteen-format .container h2 {color: #fff;}
 /*.page-id-897 #nineteen-format, .page-id-897 #nineteen-speakers, .page-id-897 #nineteen-affinity, .page-id-897 #nineteen-transportation {
     background-image: url('http://staging.globalmobilization.org/wp-content/uploads/2019/05/Marx-stripes.png');
     background-repeat: repeat-x;
