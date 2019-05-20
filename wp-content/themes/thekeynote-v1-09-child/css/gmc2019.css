@@ -4,7 +4,7 @@
 * Include .page-id-XXX in all styles where XXXX is the page id of this conference.
 ******************************************
  */
-.page-id-897 h1 {
+.page-id-900 h1 {
     font-size: 30px;
     font-family: NeuzeitSLTStd, Roboto, Helvetica, Arial;
     color: #144b71;
@@ -13,13 +13,13 @@
     letter-spacing: 1px;
     font-weight: bold;
 }
-.page-id-897 .gdlr-content h2 {
+.page-id-900 .gdlr-content h2 {
     font-family: PhotinaMTStd, "Playfair Display", Georgia;
     font-size: 24px;
     text-align: center;
     color: #719f49;
 }
-.page-id-897 .intro-text {
+.page-id-900 .intro-text {
     font-family: PhotinaMTStd, "Playfair Display", Georgia;
     font-size: 30px;
     text-transform: initial;
@@ -37,7 +37,7 @@
     background-image: url('/wp-content/uploads/2019/05/Marx-Divider-canvas.png'), 
     url('/wp-content/uploads/2019/05/Marx-Os-Mosaic-Banner-Image-img-6751.jpg');
 }
-.page-id-897 #nineteen-format .container {
+.page-id-900 #nineteen-format .container {
     background-image: url('/wp-content/uploads/2019/05/gmc2017-auditorium.jpg'),
     url('/wp-content/uploads/2019/05/Marx-Divider2-B.png');
     background-size: 100% auto;
@@ -47,33 +47,33 @@
     padding: 349px 20px 60px 20px;
     color: #fff;
 }
-.page-id-897 #nineteen-format .container h1 {color: #fff;}
-.page-id-897 #nineteen-format .container h2 {color: #c3d7d8;}
-/*.page-id-897 #nineteen-format, .page-id-897 #nineteen-speakers, .page-id-897 #nineteen-affinity, .page-id-897 #nineteen-transportation {
+.page-id-900 #nineteen-format .container h1 {color: #fff;}
+.page-id-900 #nineteen-format .container h2 {color: #c3d7d8;}
+/*.page-id-900 #nineteen-format, .page-id-900 #nineteen-speakers, .page-id-900 #nineteen-affinity, .page-id-900 #nineteen-transportation {
     background-image: url('/wp-content/uploads/2019/05/Marx-stripes.png');
     background-repeat: repeat-x;
     background-position: top;
 }
-.page-id-897 #nineteen-speakers {
+.page-id-900 #nineteen-speakers {
     background-image: url('/wp-content/uploads/2019/05/Marx-wave.png');
 }
-.page-id-897 #nineteen-affinity {
+.page-id-900 #nineteen-affinity {
     background-image: url('/wp-content/uploads/2019/05/Marx-o.png');
 }
 */
-.page-id-897 #nineteen-affinity {
+.page-id-900 #nineteen-affinity {
     display: none;
 }
-.page-id-897 .gdlr-personnel-item .personnel-author-image {
+.page-id-900 .gdlr-personnel-item .personnel-author-image {
     border-color: #719f49;
     display: none;
 }
-.page-id-897 .gdlr-frame.frame-type-circle{
+.page-id-900 .gdlr-frame.frame-type-circle{
     -moz-border-radius: initial;
     -webkit-border-radius: initial;
     border-radius: initial;
 }
-.page-id-897 .gdlr-frame.frame-type-circle::after {
+.page-id-900 .gdlr-frame.frame-type-circle::after {
     content: '';
     position: absolute;
     top: 0; right: 0;
@@ -81,42 +81,42 @@
     background: url(/wp-content/uploads/2019/05/img-clip3.png) no-repeat;
     background-size: 100% 100%;
 }
-.page-id-897 .gdlr-personnel-item .personnel-item-inner {
+.page-id-900 .gdlr-personnel-item .personnel-item-inner {
     background-color: #fff;
     display: none;
 }
 
-.page-id-897 #nineteen-pricing {
+.page-id-900 #nineteen-pricing {
     background-image: url(/wp-content/uploads/2019/05/violator-bg.png);
     background-size: 100% 100%;
     padding: 10% 30px 5% 30px;
 }
-.page-id-897 #nineteen-pricing h1 {
+.page-id-900 #nineteen-pricing h1 {
     text-align: left;
     font-size: 60px;
     color: #fff;
     margin: 0;
 }
-.page-id-897 #nineteen-pricing h2 {
+.page-id-900 #nineteen-pricing h2 {
     font-family: NeuzeitSLTStd, Roboto, Helvetica, Arial;
     text-align: left;
     color: #fff;
 }
-.page-id-897 #nineteen-pricing p {
+.page-id-900 #nineteen-pricing p {
     font-size: 20px;
     color: #fff;
 }
-.page-id-897 #nineteen-register p {
+.page-id-900 #nineteen-register p {
     color: #144b71;
 }
 
 @media only screen and (min-width: 768px) {
-    .page-id-897 #nineteen-register {
+    .page-id-900 #nineteen-register {
         margin: 10%;
     }
 }
  @media only screen and (min-width: 960px) {
-  .page-id-897 #all-stretch .container {
+  .page-id-900 #all-stretch .container {
         max-width: 800px;
     }
 }
@@ -124,40 +124,40 @@
 
 /* Styling for ticket section. No longer using Ticket module for the Register section */
 
-/*.page-id-897 #discount-ticket{
+/*.page-id-900 #discount-ticket{
     display: none;
 }
-.page-id-897 .two-fifth .gdlr-ticket-button, .page-id-897 .two-fifth .gdlr-ticket-head {
+.page-id-900 .two-fifth .gdlr-ticket-button, .page-id-900 .two-fifth .gdlr-ticket-head {
     display: none;
 }
-.page-id-897 .two-fifth .gdlr-ticket-item .gdlr-ticket-content {
+.page-id-900 .two-fifth .gdlr-ticket-item .gdlr-ticket-content {
     text-align: left;
     background-color: #144b71;
     padding: 35px 35px 20px 35px;
 }
-.page-id-897 .two-fifth .gdlr-ticket-content p {
+.page-id-900 .two-fifth .gdlr-ticket-content p {
     color: #fff;
 }
-.page-id-897 .two-fifth .gdlr-ticket-content h1 {
+.page-id-900 .two-fifth .gdlr-ticket-content h1 {
     color: #fff;
 }
-.page-id-897 .three-fifth .gdlr-ticket-item .gdlr-ticket-content {
+.page-id-900 .three-fifth .gdlr-ticket-item .gdlr-ticket-content {
     background-color: #fff;
     color: #144b71;
 }
-.page-id-897 .three-fifth .gdlr-ticket-item .gdlr-ticket-head-title {
+.page-id-900 .three-fifth .gdlr-ticket-item .gdlr-ticket-head-title {
     color: #fff !important;
 }
-.page-id-897 .three-fifth .gdlr-ticket-head {
+.page-id-900 .three-fifth .gdlr-ticket-head {
     background-color: #144b71;
 }
-.page-id-897 .three-fifth .gdlr-ticket-content h1 {
+.page-id-900 .three-fifth .gdlr-ticket-content h1 {
     color: #144b71;
 }
-.page-id-897 .three-fifth .gdlr-ticket-content p {
+.page-id-900 .three-fifth .gdlr-ticket-content p {
     color: #144b71;
 }
-.page-id-897 .gdlr-ticket-item .gdlr-ticket-button {
+.page-id-900 .gdlr-ticket-item .gdlr-ticket-button {
     background-color: #144b71 !important;
     color: #e6cc32;
 }*/
