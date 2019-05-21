@@ -42,17 +42,20 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center 101%;
-    background-color: #144b71;
+    background-color: #b6d584;
     padding: 0 20px 60px 20px;
-    color: #fff;
+    color: #144b71;
 }
 .page-id-897 #nineteen-format .container #auditorium-image {
     margin: 0 -20px;
     padding: 0;
     max-width: initial;
 }
-.page-id-897 #nineteen-format .container h1 {color: #fff;}
-.page-id-897 #nineteen-format .container h2 {color: #c3d7d8;}
+.page-id-897 #nineteen-format .container h1 {
+    color: #fff;
+    padding: 10px 0px 0px 0px;
+}
+.page-id-897 #nineteen-format .container h2 {color: #144b71;}
 /*.page-id-897 #nineteen-format, .page-id-897 #nineteen-speakers, .page-id-897 #nineteen-affinity, .page-id-897 #nineteen-transportation {
     background-image: url('/wp-content/uploads/2019/05/Marx-stripes.png');
     background-repeat: repeat-x;
@@ -88,6 +91,12 @@
 .page-id-897 .gdlr-personnel-item .personnel-item-inner {
     background-color: #fff;
     display: none;
+}
+
+.page-id-897 #all-stretch {
+    -webkit-box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 025px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.15);
 }
 
 .page-id-897 #nineteen-pricing {
