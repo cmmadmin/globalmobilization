@@ -111,8 +111,16 @@ html body, html input, html textarea, html select { font-family: NeuzeitSLTStd, 
     margin-top: 10px;
 }
 
+/*.footer-wrapper #text-3 .textwidget {
+    text-align: center;
+}*/
+
 .footer-wrapper .footer-container .footer-column {
     text-align: center;
+}
+
+div#media_image-2 {
+    margin-bottom: 10px;
 }
 
 /*Code to remove most of the bottom margin on the WEA image in the footer */
