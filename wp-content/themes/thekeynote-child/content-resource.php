@@ -25,7 +25,7 @@ global $publicFavorites;
 		<h2><a href="<?php globmob_field('find_it_here_1_direct'); ?>" target="_blank"><?php the_title(); ?></a></h2>
 		<h5>
 			<?php 
-			echo globmob_tax('resource_author', false);
+			// echo globmob_tax('resource_author', false);
 	
 			$resauthor = wp_get_post_terms( $post->ID, 'resource_author' );
 			$pubdate = get_post_meta($post->ID, 'publication_date', true);

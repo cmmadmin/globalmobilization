@@ -32,18 +32,18 @@ $args = array(
 );
 
 if( $resSort == 'Oldest' ) {
-	$args[orderby] = 'date';
-	$args[order] = 'ASC';
+	$args['orderby'] = 'date';
+	$args['order'] = 'ASC';
 } else if( $resSort == 'Newest' ) {
-	$args[orderby] = 'date';
-	$args[order] = 'DESC';
+	$args['orderby'] = 'date';
+	$args['order'] = 'DESC';
 } else if( $resSort == 'Title: Z-A' ) {
-	$args[orderby] = 'title';
-	$args[order] = 'DESC';
+	$args['orderby'] = 'title';
+	$args['order'] = 'DESC';
 } else {
 	// Title: A-Z
-	$args[orderby] = 'title';
-	$args[order] = 'ASC';
+	$args['orderby'] = 'title';
+	$args['order'] = 'ASC';
 }
 
 $the_query = new WP_Query($args);
