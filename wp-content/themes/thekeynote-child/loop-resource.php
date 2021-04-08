@@ -12,8 +12,8 @@ $resMobLevel = (isset($_GET['mobLevelArray'])) ? $_GET['mobLevelArray'] :  array
 $resLanguage = (isset($_GET['languageArray'])) ? $_GET['languageArray'] :  array();
 $resSort = (isset($_GET['sortBy'])) ? $_GET['sortBy'] : 'Newest';
 
-echo $numPosts;
-echo $page;
+// echo $numPosts;
+// echo $page;
 
 $tax_query = array('relation' => 'AND');
 if( !empty($resRegion) )
